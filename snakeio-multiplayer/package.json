@@ -1,9 +1,14 @@
 {
-  "name": "rplace_render",
+  "name": "snakeio-multiplayer",
   "version": "1.0.0",
-  "private": true,
+  "description": "Gioco multiplayer tipo Slither.io, completamente originale",
+  "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "postinstall": "cd backend && npm install"
+    "start": "node server.js"
+  },
+  "author": "IlTuoNome",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.13.0"
   }
 }
