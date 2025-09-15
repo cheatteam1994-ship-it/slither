@@ -1,7 +1,7 @@
 {
   "name": "snakeio-multiplayer",
   "version": "1.0.0",
-  "description": "Gioco multiplayer tipo Slither.io, completamente originale",
+  "description": "Gioco multiplayer tipo Slither.io, originale",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
