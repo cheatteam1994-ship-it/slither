@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const ws = new WebSocket('ws://localhost:3000'); // Cambia con l'URL di Render
+const ws = new WebSocket('wss://slither-z48d.onrender.com'); // Cambia con l'URL di Render
 let snakeId = null;
 let snakes = {};
 let food = {};
@@ -50,3 +50,4 @@ function draw() {
     requestAnimationFrame(draw);
 }
 draw();
+
